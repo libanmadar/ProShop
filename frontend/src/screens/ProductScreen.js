@@ -9,7 +9,7 @@ const ProductScreen = ({ match }) => {
 
   return (
     <div>
-      <Link className="btn btn-light my-3" to="/">
+      <Link className="btn btn-dark my-3" to="/">
         Go Back
       </Link>
       <Row>
@@ -27,8 +27,8 @@ const ProductScreen = ({ match }) => {
                 text={`${product.numReviews} reviews`}
               />
             </ListGroup.Item>
-            <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
-            <ListGroup.Item>Description: ${product.description}</ListGroup.Item>
+            <ListGroup.Item>Price: {product.price}</ListGroup.Item>
+            <ListGroup.Item>Description: {product.description}</ListGroup.Item>
           </ListGroup>
         </Col>
         <Col md={3}>
