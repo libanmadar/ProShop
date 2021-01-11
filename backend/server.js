@@ -5,7 +5,7 @@ const products = require("./data/products");
 app.get("/", (req, res) => {
   res.send("API is running...");
 });
-
+console.log("testing");
 app.get("/api/products", (req, res) => {
   res.json(products);
 });
