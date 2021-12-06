@@ -77,6 +77,18 @@ const products = [
     rating: 4,
     numReviews: 12,
   },
+  {
+    _id: "7",
+    name: "Sony Playstaion 5 Disc Versioon",
+    image: "/images/ps5.jpg",
+    description: "The Newest and most powerful gaming epxerpiece is here",
+    brand: "Sony",
+    catogory: "Electronics",
+    price: "499.99",
+    countInStock: "1",
+    rating: "4.5",
+    numReviews: "3",
+  },
 ];
 
-module.exports = products;
+export default products;
