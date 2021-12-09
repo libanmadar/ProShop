@@ -1,6 +1,9 @@
 # eCommerce
 
  Welcome to Proshop the home of low prices, built using the MERN Stack
+ To open app please run these commands
+ npm install
+ npm start
 
 
  
